@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: #4e54c8;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8f94fb, #4e54c8);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#calendario,
+#dias {
+    background: #E0EAFC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrapped {
+    max-width: 760px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 16px;
+}
+
+.days-week {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+}
+
+.number-days {
+    width: 100%;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.days-week span {
+    display: inline-block;
+    font-weight: bold;
+    width: 14.2%;
+    padding: 10px 0;
+    color: rgb(36, 57, 155);
+}
+
+.number-days span {
+    color: #1c23868a;
+    display: inline-block;
+    border-radius: 10px;
+    width: 14.2%;
+    margin: 8px 0;
+}
+
+.number-days span:hover {
+    background-color: rgb(221, 255, 255);
+    margin: 8.22px 0;
+}
+
+.mes-anterior {
+    opacity: .5;
+}
